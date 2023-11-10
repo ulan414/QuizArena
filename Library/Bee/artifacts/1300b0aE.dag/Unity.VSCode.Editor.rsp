@@ -127,6 +127,10 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"Assets/Database/Plugins/DnsClient.dll"
+-r:"Assets/Database/Plugins/MongoDB.Bson.dll"
+-r:"Assets/Database/Plugins/MongoDB.Driver.Core.dll"
+-r:"Assets/Database/Plugins/MongoDB.Driver.dll"
 -r:"Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
 -r:"Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed/UnityEditor.Graphs.dll"

@@ -1,49 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {
-      "PhotonRealtime/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
-        "compile": {
-          "bin/placeholder/PhotonRealtime.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PhotonRealtime.dll": {}
-        }
-      },
-      "PhotonUnityNetworking/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
-        "dependencies": {
-          "PhotonRealtime": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PhotonUnityNetworking.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PhotonUnityNetworking.dll": {}
-        }
-      }
-    }
+    ".NETStandard,Version=v2.1": {}
   },
-  "libraries": {
-    "PhotonRealtime/1.0.0": {
-      "type": "project",
-      "path": "PhotonRealtime.csproj",
-      "msbuildProject": "PhotonRealtime.csproj"
-    },
-    "PhotonUnityNetworking/1.0.0": {
-      "type": "project",
-      "path": "PhotonUnityNetworking.csproj",
-      "msbuildProject": "PhotonUnityNetworking.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": [
-      "PhotonRealtime >= 1.0.0",
-      "PhotonUnityNetworking >= 1.0.0"
-    ]
+    ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
     "C:\\Users\\ulang\\.nuget\\packages\\": {}
@@ -51,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ulang\\My project\\PhotonUnityNetworking.Utilities.csproj",
-      "projectName": "PhotonUnityNetworking.Utilities",
-      "projectPath": "C:\\Users\\ulang\\My project\\PhotonUnityNetworking.Utilities.csproj",
+      "projectUniqueName": "C:\\Users\\ulang\\My project\\PhotonChat.csproj",
+      "projectName": "PhotonChat",
+      "projectPath": "C:\\Users\\ulang\\My project\\PhotonChat.csproj",
       "packagesPath": "C:\\Users\\ulang\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ulang\\My project\\obj\\",
       "projectStyle": "PackageReference",
@@ -69,14 +31,7 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {
-            "C:\\Users\\ulang\\My project\\PhotonRealtime.csproj": {
-              "projectPath": "C:\\Users\\ulang\\My project\\PhotonRealtime.csproj"
-            },
-            "C:\\Users\\ulang\\My project\\PhotonUnityNetworking.csproj": {
-              "projectPath": "C:\\Users\\ulang\\My project\\PhotonUnityNetworking.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
