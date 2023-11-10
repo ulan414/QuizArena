@@ -1,0 +1,4 @@
+#Fri Nov 10 02:01:11 ALMT 2023
+base.0=C\:\\Users\\ulang\\My project\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
