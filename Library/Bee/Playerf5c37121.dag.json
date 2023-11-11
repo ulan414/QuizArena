@@ -355,7 +355,25 @@
         347,
         348,
         349,
-        350
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -413,7 +431,7 @@
       "DisplayName": "Writing boot.config_x4e9.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 14495,
+      "PayloadLength": 15068,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
@@ -511,9 +529,15 @@
         "C:/Users/ulang/My project/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
         "C:/Users/ulang/My project/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
         "C:/Users/ulang/My project/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll",
+        "C:/Users/ulang/My project/Assets/Database/Plugins/DnsClient.dll",
+        "C:/Users/ulang/My project/Assets/Database/Plugins/MongoDB.Driver.dll",
         "C:/Users/ulang/My project/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
+        "C:/Users/ulang/My project/Assets/Database/Plugins/MongoDB.Driver.Core.dll",
         "C:/Users/ulang/My project/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "C:/Users/ulang/My project/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
+        "C:/Users/ulang/My project/Assets/Database/Plugins/MongoDB.Bson.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Buffers.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Runtime.InteropServices.RuntimeInformation.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/netstandard.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Mono.Security.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.ComponentModel.Composition.dll",
@@ -1547,6 +1571,30 @@
       "DebugActionIndex": 86
     },
     {
+      "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/DnsClient.dll",
+      "DisplayName": "Copying DnsClient.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/ulang/My project/Assets/Database/Plugins/DnsClient.dll"
+      ],
+      "Outputs": [
+        "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/DnsClient.dll"
+      ],
+      "DebugActionIndex": 87
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/MongoDB.Driver.dll",
+      "DisplayName": "Copying MongoDB.Driver.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/ulang/My project/Assets/Database/Plugins/MongoDB.Driver.dll"
+      ],
+      "Outputs": [
+        "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/MongoDB.Driver.dll"
+      ],
+      "DebugActionIndex": 88
+    },
+    {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/websocket-sharp.dll",
       "DisplayName": "Copying websocket-sharp.dll",
       "ActionType": "CopyFiles",
@@ -1556,7 +1604,19 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/websocket-sharp.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 89
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/MongoDB.Driver.Core.dll",
+      "DisplayName": "Copying MongoDB.Driver.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/ulang/My project/Assets/Database/Plugins/MongoDB.Driver.Core.dll"
+      ],
+      "Outputs": [
+        "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/MongoDB.Driver.Core.dll"
+      ],
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1568,7 +1628,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Photon3Unity3D.dll",
@@ -1580,7 +1640,43 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Photon3Unity3D.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 92
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/MongoDB.Bson.dll",
+      "DisplayName": "Copying MongoDB.Bson.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/ulang/My project/Assets/Database/Plugins/MongoDB.Bson.dll"
+      ],
+      "Outputs": [
+        "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/MongoDB.Bson.dll"
+      ],
+      "DebugActionIndex": 93
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Buffers.dll",
+      "DisplayName": "Copying System.Buffers.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Buffers.dll"
+      ],
+      "Outputs": [
+        "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Buffers.dll"
+      ],
+      "DebugActionIndex": 94
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Runtime.InteropServices.RuntimeInformation.dll",
+      "DisplayName": "Copying System.Runtime.InteropServices.RuntimeInformation.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+      ],
+      "Outputs": [
+        "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Runtime.InteropServices.RuntimeInformation.dll"
+      ],
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/netstandard.dll",
@@ -1592,7 +1688,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Mono.Security.dll",
@@ -1604,7 +1700,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.ComponentModel.Composition.dll",
@@ -1616,7 +1712,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Configuration.dll",
@@ -1628,7 +1724,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Core.dll",
@@ -1640,7 +1736,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1652,7 +1748,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Data.dll",
@@ -1664,7 +1760,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Drawing.dll",
@@ -1676,7 +1772,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.EnterpriseServices.dll",
@@ -1688,7 +1784,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1700,7 +1796,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.IO.Compression.dll",
@@ -1712,7 +1808,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Net.Http.dll",
@@ -1724,7 +1820,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Numerics.dll",
@@ -1736,7 +1832,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Runtime.Serialization.dll",
@@ -1748,7 +1844,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Security.dll",
@@ -1760,7 +1856,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.ServiceModel.Internals.dll",
@@ -1772,7 +1868,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Transactions.dll",
@@ -1784,7 +1880,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Xml.Linq.dll",
@@ -1796,7 +1892,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Xml.dll",
@@ -1808,7 +1904,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.dll",
@@ -1820,7 +1916,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/mscorlib.dll",
@@ -1832,20 +1928,20 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AIModule-FeaturesChecked.txt_jr17.info",
       "DisplayName": "Writing UnityEngine.AIModule-FeaturesChecked.txt_jr17.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 14696,
+      "PayloadOffset": 15269,
       "PayloadLength": 1929,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.AIModule-FeaturesChecked.txt_jr17.info"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AIModule-FeaturesChecked.txt",
@@ -1893,25 +1989,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.AIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        111
+        117
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ARModule-FeaturesChecked.txt_crib.info",
       "DisplayName": "Writing UnityEngine.ARModule-FeaturesChecked.txt_crib.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 16743,
+      "PayloadOffset": 17316,
       "PayloadLength": 1929,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ARModule-FeaturesChecked.txt_crib.info"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.ARModule-FeaturesChecked.txt",
@@ -1959,25 +2055,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.ARModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        113
+        119
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AccessibilityModule-FeaturesChecked.txt_ttts.info",
       "DisplayName": "Writing UnityEngine.AccessibilityModule-FeaturesChecked.txt_ttts.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 18801,
+      "PayloadOffset": 19374,
       "PayloadLength": 1951,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.AccessibilityModule-FeaturesChecked.txt_ttts.info"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AccessibilityModule-FeaturesChecked.txt",
@@ -2025,25 +2121,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.AccessibilityModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        115
+        121
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AndroidJNIModule-FeaturesChecked.txt_x3ln.info",
       "DisplayName": "Writing UnityEngine.AndroidJNIModule-FeaturesChecked.txt_x3ln.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 20878,
+      "PayloadOffset": 21451,
       "PayloadLength": 1945,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.AndroidJNIModule-FeaturesChecked.txt_x3ln.info"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt",
@@ -2091,25 +2187,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        117
+        123
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AnimationModule-FeaturesChecked.txt_3sdh.info",
       "DisplayName": "Writing UnityEngine.AnimationModule-FeaturesChecked.txt_3sdh.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 22948,
+      "PayloadOffset": 23521,
       "PayloadLength": 1943,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.AnimationModule-FeaturesChecked.txt_3sdh.info"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AnimationModule-FeaturesChecked.txt",
@@ -2157,25 +2253,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.AnimationModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        119
+        125
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AssetBundleModule-FeaturesChecked.txt_1gjh.info",
       "DisplayName": "Writing UnityEngine.AssetBundleModule-FeaturesChecked.txt_1gjh.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 25018,
+      "PayloadOffset": 25591,
       "PayloadLength": 1947,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.AssetBundleModule-FeaturesChecked.txt_1gjh.info"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AssetBundleModule-FeaturesChecked.txt",
@@ -2223,25 +2319,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.AssetBundleModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        121
+        127
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AudioModule-FeaturesChecked.txt_tbfa.info",
       "DisplayName": "Writing UnityEngine.AudioModule-FeaturesChecked.txt_tbfa.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 27086,
+      "PayloadOffset": 27659,
       "PayloadLength": 1935,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.AudioModule-FeaturesChecked.txt_tbfa.info"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AudioModule-FeaturesChecked.txt",
@@ -2289,25 +2385,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.AudioModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        123
+        129
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ClothModule-FeaturesChecked.txt_t4wd.info",
       "DisplayName": "Writing UnityEngine.ClothModule-FeaturesChecked.txt_t4wd.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 29142,
+      "PayloadOffset": 29715,
       "PayloadLength": 1935,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ClothModule-FeaturesChecked.txt_t4wd.info"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.ClothModule-FeaturesChecked.txt",
@@ -2355,25 +2451,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.ClothModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        125
+        131
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ContentLoadModule-FeaturesChecked.txt_23ys.info",
       "DisplayName": "Writing UnityEngine.ContentLoadModule-FeaturesChecked.txt_23ys.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 31204,
+      "PayloadOffset": 31777,
       "PayloadLength": 1947,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ContentLoadModule-FeaturesChecked.txt_23ys.info"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.ContentLoadModule-FeaturesChecked.txt",
@@ -2421,25 +2517,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.ContentLoadModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        127
+        133
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.CoreModule-FeaturesChecked.txt_uimb.info",
       "DisplayName": "Writing UnityEngine.CoreModule-FeaturesChecked.txt_uimb.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 33271,
+      "PayloadOffset": 33844,
       "PayloadLength": 1933,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.CoreModule-FeaturesChecked.txt_uimb.info"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt",
@@ -2487,25 +2583,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129
+        135
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.CrashReportingModule-FeaturesChecked.txt_yrdm.info",
       "DisplayName": "Writing UnityEngine.CrashReportingModule-FeaturesChecked.txt_yrdm.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 35334,
+      "PayloadOffset": 35907,
       "PayloadLength": 1953,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.CrashReportingModule-FeaturesChecked.txt_yrdm.info"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.CrashReportingModule-FeaturesChecked.txt",
@@ -2553,25 +2649,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.CrashReportingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        131
+        137
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.DSPGraphModule-FeaturesChecked.txt_sa00.info",
       "DisplayName": "Writing UnityEngine.DSPGraphModule-FeaturesChecked.txt_sa00.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 37411,
+      "PayloadOffset": 37984,
       "PayloadLength": 1941,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.DSPGraphModule-FeaturesChecked.txt_sa00.info"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.DSPGraphModule-FeaturesChecked.txt",
@@ -2619,25 +2715,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.DSPGraphModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        133
+        139
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.DirectorModule-FeaturesChecked.txt_ruda.info",
       "DisplayName": "Writing UnityEngine.DirectorModule-FeaturesChecked.txt_ruda.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 39476,
+      "PayloadOffset": 40049,
       "PayloadLength": 1941,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.DirectorModule-FeaturesChecked.txt_ruda.info"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.DirectorModule-FeaturesChecked.txt",
@@ -2685,25 +2781,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.DirectorModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        135
+        141
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.GIModule-FeaturesChecked.txt_xq4v.info",
       "DisplayName": "Writing UnityEngine.GIModule-FeaturesChecked.txt_xq4v.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 41535,
+      "PayloadOffset": 42108,
       "PayloadLength": 1929,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.GIModule-FeaturesChecked.txt_xq4v.info"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.GIModule-FeaturesChecked.txt",
@@ -2751,25 +2847,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.GIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        137
+        143
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.GameCenterModule-FeaturesChecked.txt_mquo.info",
       "DisplayName": "Writing UnityEngine.GameCenterModule-FeaturesChecked.txt_mquo.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 43590,
+      "PayloadOffset": 44163,
       "PayloadLength": 1945,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.GameCenterModule-FeaturesChecked.txt_mquo.info"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.GameCenterModule-FeaturesChecked.txt",
@@ -2817,25 +2913,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.GameCenterModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        139
+        145
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.GridModule-FeaturesChecked.txt_5p9t.info",
       "DisplayName": "Writing UnityEngine.GridModule-FeaturesChecked.txt_5p9t.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 45655,
+      "PayloadOffset": 46228,
       "PayloadLength": 1933,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.GridModule-FeaturesChecked.txt_5p9t.info"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.GridModule-FeaturesChecked.txt",
@@ -2883,25 +2979,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.GridModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        141
+        147
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.HotReloadModule-FeaturesChecked.txt_hu6r.info",
       "DisplayName": "Writing UnityEngine.HotReloadModule-FeaturesChecked.txt_hu6r.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 47713,
+      "PayloadOffset": 48286,
       "PayloadLength": 1943,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.HotReloadModule-FeaturesChecked.txt_hu6r.info"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.HotReloadModule-FeaturesChecked.txt",
@@ -2949,25 +3045,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.HotReloadModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        143
+        149
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.IMGUIModule-FeaturesChecked.txt_ufk2.info",
       "DisplayName": "Writing UnityEngine.IMGUIModule-FeaturesChecked.txt_ufk2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 49777,
+      "PayloadOffset": 50350,
       "PayloadLength": 1935,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.IMGUIModule-FeaturesChecked.txt_ufk2.info"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt",
@@ -3015,25 +3111,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        145
+        151
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ImageConversionModule-FeaturesChecked.txt_cml2.info",
       "DisplayName": "Writing UnityEngine.ImageConversionModule-FeaturesChecked.txt_cml2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 51843,
+      "PayloadOffset": 52416,
       "PayloadLength": 1955,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ImageConversionModule-FeaturesChecked.txt_cml2.info"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt",
@@ -3081,25 +3177,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        147
+        153
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.InputLegacyModule-FeaturesChecked.txt_y5my.info",
       "DisplayName": "Writing UnityEngine.InputLegacyModule-FeaturesChecked.txt_y5my.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 53925,
+      "PayloadOffset": 54498,
       "PayloadLength": 1947,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.InputLegacyModule-FeaturesChecked.txt_y5my.info"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt",
@@ -3147,25 +3243,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        149
+        155
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.InputModule-FeaturesChecked.txt_xblj.info",
       "DisplayName": "Writing UnityEngine.InputModule-FeaturesChecked.txt_xblj.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 55993,
+      "PayloadOffset": 56566,
       "PayloadLength": 1935,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.InputModule-FeaturesChecked.txt_xblj.info"
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.InputModule-FeaturesChecked.txt",
@@ -3213,25 +3309,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.InputModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        151
+        157
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.JSONSerializeModule-FeaturesChecked.txt_vjsc.info",
       "DisplayName": "Writing UnityEngine.JSONSerializeModule-FeaturesChecked.txt_vjsc.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 58057,
+      "PayloadOffset": 58630,
       "PayloadLength": 1951,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.JSONSerializeModule-FeaturesChecked.txt_vjsc.info"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt",
@@ -3279,25 +3375,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        153
+        159
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.LocalizationModule-FeaturesChecked.txt_c5g9.info",
       "DisplayName": "Writing UnityEngine.LocalizationModule-FeaturesChecked.txt_c5g9.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 60136,
+      "PayloadOffset": 60709,
       "PayloadLength": 1949,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.LocalizationModule-FeaturesChecked.txt_c5g9.info"
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.LocalizationModule-FeaturesChecked.txt",
@@ -3345,25 +3441,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.LocalizationModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        155
+        161
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ParticleSystemModule-FeaturesChecked.txt_kapj.info",
       "DisplayName": "Writing UnityEngine.ParticleSystemModule-FeaturesChecked.txt_kapj.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 62215,
+      "PayloadOffset": 62788,
       "PayloadLength": 1953,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ParticleSystemModule-FeaturesChecked.txt_kapj.info"
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt",
@@ -3411,25 +3507,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        157
+        163
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt_pjc8.info",
       "DisplayName": "Writing UnityEngine.PerformanceReportingModule-FeaturesChecked.txt_pjc8.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 64304,
+      "PayloadOffset": 64877,
       "PayloadLength": 1965,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt_pjc8.info"
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt",
@@ -3477,25 +3573,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        159
+        165
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.Physics2DModule-FeaturesChecked.txt_45hf.info",
       "DisplayName": "Writing UnityEngine.Physics2DModule-FeaturesChecked.txt_45hf.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 66394,
+      "PayloadOffset": 66967,
       "PayloadLength": 1943,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.Physics2DModule-FeaturesChecked.txt_45hf.info"
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt",
@@ -3543,25 +3639,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        161
+        167
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PhysicsModule-FeaturesChecked.txt_2l1t.info",
       "DisplayName": "Writing UnityEngine.PhysicsModule-FeaturesChecked.txt_2l1t.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 68460,
+      "PayloadOffset": 69033,
       "PayloadLength": 1939,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.PhysicsModule-FeaturesChecked.txt_2l1t.info"
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt",
@@ -3609,25 +3705,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        163
+        169
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ProfilerModule-FeaturesChecked.txt_8pk7.info",
       "DisplayName": "Writing UnityEngine.ProfilerModule-FeaturesChecked.txt_8pk7.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 70523,
+      "PayloadOffset": 71096,
       "PayloadLength": 1941,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ProfilerModule-FeaturesChecked.txt_8pk7.info"
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.ProfilerModule-FeaturesChecked.txt",
@@ -3675,25 +3771,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.ProfilerModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        165
+        171
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PropertiesModule-FeaturesChecked.txt_m9z5.info",
       "DisplayName": "Writing UnityEngine.PropertiesModule-FeaturesChecked.txt_m9z5.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 72590,
+      "PayloadOffset": 73163,
       "PayloadLength": 1945,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.PropertiesModule-FeaturesChecked.txt_m9z5.info"
       ],
-      "DebugActionIndex": 167
+      "DebugActionIndex": 173
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.PropertiesModule-FeaturesChecked.txt",
@@ -3741,25 +3837,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.PropertiesModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        167
+        173
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 168
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt_tunv.info",
       "DisplayName": "Writing UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt_tunv.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 74692,
+      "PayloadOffset": 75265,
       "PayloadLength": 2007,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt_tunv.info"
       ],
-      "DebugActionIndex": 169
+      "DebugActionIndex": 175
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt",
@@ -3807,25 +3903,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        169
+        175
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 170
+      "DebugActionIndex": 176
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt_dsz7.info",
       "DisplayName": "Writing UnityEngine.ScreenCaptureModule-FeaturesChecked.txt_dsz7.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 76828,
+      "PayloadOffset": 77401,
       "PayloadLength": 1951,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt_dsz7.info"
       ],
-      "DebugActionIndex": 171
+      "DebugActionIndex": 177
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt",
@@ -3873,25 +3969,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        171
+        177
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 172
+      "DebugActionIndex": 178
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SharedInternalsModule-FeaturesChecked.txt_sm9d.info",
       "DisplayName": "Writing UnityEngine.SharedInternalsModule-FeaturesChecked.txt_sm9d.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 78910,
+      "PayloadOffset": 79483,
       "PayloadLength": 1955,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.SharedInternalsModule-FeaturesChecked.txt_sm9d.info"
       ],
-      "DebugActionIndex": 173
+      "DebugActionIndex": 179
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt",
@@ -3939,25 +4035,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        173
+        179
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 174
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SpriteMaskModule-FeaturesChecked.txt_g2rc.info",
       "DisplayName": "Writing UnityEngine.SpriteMaskModule-FeaturesChecked.txt_g2rc.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 80991,
+      "PayloadOffset": 81564,
       "PayloadLength": 1945,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.SpriteMaskModule-FeaturesChecked.txt_g2rc.info"
       ],
-      "DebugActionIndex": 175
+      "DebugActionIndex": 181
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SpriteMaskModule-FeaturesChecked.txt",
@@ -4005,25 +4101,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.SpriteMaskModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        175
+        181
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 176
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SpriteShapeModule-FeaturesChecked.txt_zrrh.info",
       "DisplayName": "Writing UnityEngine.SpriteShapeModule-FeaturesChecked.txt_zrrh.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 83063,
+      "PayloadOffset": 83636,
       "PayloadLength": 1947,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.SpriteShapeModule-FeaturesChecked.txt_zrrh.info"
       ],
-      "DebugActionIndex": 177
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt",
@@ -4071,25 +4167,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        177
+        183
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 178
+      "DebugActionIndex": 184
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.StreamingModule-FeaturesChecked.txt_hlqf.info",
       "DisplayName": "Writing UnityEngine.StreamingModule-FeaturesChecked.txt_hlqf.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 85135,
+      "PayloadOffset": 85708,
       "PayloadLength": 1943,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.StreamingModule-FeaturesChecked.txt_hlqf.info"
       ],
-      "DebugActionIndex": 179
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.StreamingModule-FeaturesChecked.txt",
@@ -4137,25 +4233,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.StreamingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        179
+        185
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 180
+      "DebugActionIndex": 186
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SubstanceModule-FeaturesChecked.txt_3jeb.info",
       "DisplayName": "Writing UnityEngine.SubstanceModule-FeaturesChecked.txt_3jeb.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 87203,
+      "PayloadOffset": 87776,
       "PayloadLength": 1943,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.SubstanceModule-FeaturesChecked.txt_3jeb.info"
       ],
-      "DebugActionIndex": 181
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SubstanceModule-FeaturesChecked.txt",
@@ -4203,25 +4299,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.SubstanceModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        181
+        187
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 182
+      "DebugActionIndex": 188
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SubsystemsModule-FeaturesChecked.txt_vzqa.info",
       "DisplayName": "Writing UnityEngine.SubsystemsModule-FeaturesChecked.txt_vzqa.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 89272,
+      "PayloadOffset": 89845,
       "PayloadLength": 1945,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.SubsystemsModule-FeaturesChecked.txt_vzqa.info"
       ],
-      "DebugActionIndex": 183
+      "DebugActionIndex": 189
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt",
@@ -4269,25 +4365,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        183
+        189
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 184
+      "DebugActionIndex": 190
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TLSModule-FeaturesChecked.txt_i3n3.info",
       "DisplayName": "Writing UnityEngine.TLSModule-FeaturesChecked.txt_i3n3.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 91336,
+      "PayloadOffset": 91909,
       "PayloadLength": 1931,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.TLSModule-FeaturesChecked.txt_i3n3.info"
       ],
-      "DebugActionIndex": 185
+      "DebugActionIndex": 191
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TLSModule-FeaturesChecked.txt",
@@ -4335,25 +4431,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.TLSModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        185
+        191
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 186
+      "DebugActionIndex": 192
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TerrainModule-FeaturesChecked.txt_wybo.info",
       "DisplayName": "Writing UnityEngine.TerrainModule-FeaturesChecked.txt_wybo.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 93390,
+      "PayloadOffset": 93963,
       "PayloadLength": 1939,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.TerrainModule-FeaturesChecked.txt_wybo.info"
       ],
-      "DebugActionIndex": 187
+      "DebugActionIndex": 193
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TerrainModule-FeaturesChecked.txt",
@@ -4401,25 +4497,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.TerrainModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        187
+        193
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 188
+      "DebugActionIndex": 194
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt_15vy.info",
       "DisplayName": "Writing UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt_15vy.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 95459,
+      "PayloadOffset": 96032,
       "PayloadLength": 1953,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt_15vy.info"
       ],
-      "DebugActionIndex": 189
+      "DebugActionIndex": 195
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt",
@@ -4467,25 +4563,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        189
+        195
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 190
+      "DebugActionIndex": 196
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt_4rfo.info",
       "DisplayName": "Writing UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt_4rfo.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 97546,
+      "PayloadOffset": 98119,
       "PayloadLength": 1961,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt_4rfo.info"
       ],
-      "DebugActionIndex": 191
+      "DebugActionIndex": 197
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt",
@@ -4533,25 +4629,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        191
+        197
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 192
+      "DebugActionIndex": 198
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt_el85.info",
       "DisplayName": "Writing UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt_el85.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 99641,
+      "PayloadOffset": 100214,
       "PayloadLength": 1961,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt_el85.info"
       ],
-      "DebugActionIndex": 193
+      "DebugActionIndex": 199
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt",
@@ -4599,25 +4695,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        193
+        199
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 194
+      "DebugActionIndex": 200
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextRenderingModule-FeaturesChecked.txt_ighi.info",
       "DisplayName": "Writing UnityEngine.TextRenderingModule-FeaturesChecked.txt_ighi.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 101731,
+      "PayloadOffset": 102304,
       "PayloadLength": 1951,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.TextRenderingModule-FeaturesChecked.txt_ighi.info"
       ],
-      "DebugActionIndex": 195
+      "DebugActionIndex": 201
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt",
@@ -4665,25 +4761,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        195
+        201
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 196
+      "DebugActionIndex": 202
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TilemapModule-FeaturesChecked.txt_xct4.info",
       "DisplayName": "Writing UnityEngine.TilemapModule-FeaturesChecked.txt_xct4.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 103805,
+      "PayloadOffset": 104378,
       "PayloadLength": 1939,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.TilemapModule-FeaturesChecked.txt_xct4.info"
       ],
-      "DebugActionIndex": 197
+      "DebugActionIndex": 203
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TilemapModule-FeaturesChecked.txt",
@@ -4731,25 +4827,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.TilemapModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        197
+        203
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 198
+      "DebugActionIndex": 204
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsModule-FeaturesChecked.txt_aabo.info",
       "DisplayName": "Writing UnityEngine.UIElementsModule-FeaturesChecked.txt_aabo.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 105870,
+      "PayloadOffset": 106443,
       "PayloadLength": 1945,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsModule-FeaturesChecked.txt_aabo.info"
       ],
-      "DebugActionIndex": 199
+      "DebugActionIndex": 205
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt",
@@ -4797,25 +4893,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        199
+        205
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 200
+      "DebugActionIndex": 206
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIModule-FeaturesChecked.txt_zatd.info",
       "DisplayName": "Writing UnityEngine.UIModule-FeaturesChecked.txt_zatd.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 107933,
+      "PayloadOffset": 108506,
       "PayloadLength": 1929,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UIModule-FeaturesChecked.txt_zatd.info"
       ],
-      "DebugActionIndex": 201
+      "DebugActionIndex": 207
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UIModule-FeaturesChecked.txt",
@@ -4863,25 +4959,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        201
+        207
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 202
+      "DebugActionIndex": 208
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UmbraModule-FeaturesChecked.txt_sk2p.info",
       "DisplayName": "Writing UnityEngine.UmbraModule-FeaturesChecked.txt_sk2p.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 109983,
+      "PayloadOffset": 110556,
       "PayloadLength": 1935,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UmbraModule-FeaturesChecked.txt_sk2p.info"
       ],
-      "DebugActionIndex": 203
+      "DebugActionIndex": 209
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UmbraModule-FeaturesChecked.txt",
@@ -4929,25 +5025,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UmbraModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        203
+        209
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 204
+      "DebugActionIndex": 210
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt_z4m3.info",
       "DisplayName": "Writing UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt_z4m3.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 112054,
+      "PayloadOffset": 112627,
       "PayloadLength": 1965,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt_z4m3.info"
       ],
-      "DebugActionIndex": 205
+      "DebugActionIndex": 211
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt",
@@ -4995,25 +5091,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        205
+        211
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 206
+      "DebugActionIndex": 212
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt_cjxw.info",
       "DisplayName": "Writing UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt_cjxw.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 114149,
+      "PayloadOffset": 114722,
       "PayloadLength": 1953,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt_cjxw.info"
       ],
-      "DebugActionIndex": 207
+      "DebugActionIndex": 213
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt",
@@ -5061,25 +5157,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        207
+        213
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 208
+      "DebugActionIndex": 214
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityConnectModule-FeaturesChecked.txt_ck2r.info",
       "DisplayName": "Writing UnityEngine.UnityConnectModule-FeaturesChecked.txt_ck2r.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 116230,
+      "PayloadOffset": 116803,
       "PayloadLength": 1949,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityConnectModule-FeaturesChecked.txt_ck2r.info"
       ],
-      "DebugActionIndex": 209
+      "DebugActionIndex": 215
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityConnectModule-FeaturesChecked.txt",
@@ -5127,25 +5223,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityConnectModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        209
+        215
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 210
+      "DebugActionIndex": 216
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityCurlModule-FeaturesChecked.txt_k4qz.info",
       "DisplayName": "Writing UnityEngine.UnityCurlModule-FeaturesChecked.txt_k4qz.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 118304,
+      "PayloadOffset": 118877,
       "PayloadLength": 1943,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityCurlModule-FeaturesChecked.txt_k4qz.info"
       ],
-      "DebugActionIndex": 211
+      "DebugActionIndex": 217
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityCurlModule-FeaturesChecked.txt",
@@ -5193,25 +5289,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityCurlModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        211
+        217
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 212
+      "DebugActionIndex": 218
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt_2b9e.info",
       "DisplayName": "Writing UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt_2b9e.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 120380,
+      "PayloadOffset": 120953,
       "PayloadLength": 1959,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt_2b9e.info"
       ],
-      "DebugActionIndex": 213
+      "DebugActionIndex": 219
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt",
@@ -5259,25 +5355,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        213
+        219
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 214
+      "DebugActionIndex": 220
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt_dju7.info",
       "DisplayName": "Writing UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt_dju7.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 122481,
+      "PayloadOffset": 123054,
       "PayloadLength": 1977,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt_dju7.info"
       ],
-      "DebugActionIndex": 215
+      "DebugActionIndex": 221
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt",
@@ -5325,25 +5421,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        215
+        221
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 216
+      "DebugActionIndex": 222
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt_1uoh.info",
       "DisplayName": "Writing UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt_1uoh.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 124594,
+      "PayloadOffset": 125167,
       "PayloadLength": 1965,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt_1uoh.info"
       ],
-      "DebugActionIndex": 217
+      "DebugActionIndex": 223
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt",
@@ -5391,25 +5487,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        217
+        223
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 218
+      "DebugActionIndex": 224
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt_jk15.info",
       "DisplayName": "Writing UnityEngine.UnityWebRequestModule-FeaturesChecked.txt_jk15.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 126690,
+      "PayloadOffset": 127263,
       "PayloadLength": 1955,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt_jk15.info"
       ],
-      "DebugActionIndex": 219
+      "DebugActionIndex": 225
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt",
@@ -5457,25 +5553,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        219
+        225
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 220
+      "DebugActionIndex": 226
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt_isnv.info",
       "DisplayName": "Writing UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt_isnv.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 128783,
+      "PayloadOffset": 129356,
       "PayloadLength": 1969,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt_isnv.info"
       ],
-      "DebugActionIndex": 221
+      "DebugActionIndex": 227
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt",
@@ -5523,25 +5619,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        221
+        227
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 222
+      "DebugActionIndex": 228
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt_eosx.info",
       "DisplayName": "Writing UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt_eosx.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 130886,
+      "PayloadOffset": 131459,
       "PayloadLength": 1961,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt_eosx.info"
       ],
-      "DebugActionIndex": 223
+      "DebugActionIndex": 229
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt",
@@ -5589,25 +5685,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        223
+        229
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 224
+      "DebugActionIndex": 230
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VFXModule-FeaturesChecked.txt_r8mm.info",
       "DisplayName": "Writing UnityEngine.VFXModule-FeaturesChecked.txt_r8mm.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 132966,
+      "PayloadOffset": 133539,
       "PayloadLength": 1931,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.VFXModule-FeaturesChecked.txt_r8mm.info"
       ],
-      "DebugActionIndex": 225
+      "DebugActionIndex": 231
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.VFXModule-FeaturesChecked.txt",
@@ -5655,25 +5751,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.VFXModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        225
+        231
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 226
+      "DebugActionIndex": 232
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VRModule-FeaturesChecked.txt_nz9x.info",
       "DisplayName": "Writing UnityEngine.VRModule-FeaturesChecked.txt_nz9x.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 135015,
+      "PayloadOffset": 135588,
       "PayloadLength": 1929,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.VRModule-FeaturesChecked.txt_nz9x.info"
       ],
-      "DebugActionIndex": 227
+      "DebugActionIndex": 233
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.VRModule-FeaturesChecked.txt",
@@ -5721,25 +5817,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.VRModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        227
+        233
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 228
+      "DebugActionIndex": 234
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VehiclesModule-FeaturesChecked.txt_a1wc.info",
       "DisplayName": "Writing UnityEngine.VehiclesModule-FeaturesChecked.txt_a1wc.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 137068,
+      "PayloadOffset": 137641,
       "PayloadLength": 1941,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.VehiclesModule-FeaturesChecked.txt_a1wc.info"
       ],
-      "DebugActionIndex": 229
+      "DebugActionIndex": 235
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.VehiclesModule-FeaturesChecked.txt",
@@ -5787,25 +5883,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.VehiclesModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        229
+        235
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 230
+      "DebugActionIndex": 236
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VideoModule-FeaturesChecked.txt_2ixs.info",
       "DisplayName": "Writing UnityEngine.VideoModule-FeaturesChecked.txt_2ixs.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 139130,
+      "PayloadOffset": 139703,
       "PayloadLength": 1935,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.VideoModule-FeaturesChecked.txt_2ixs.info"
       ],
-      "DebugActionIndex": 231
+      "DebugActionIndex": 237
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.VideoModule-FeaturesChecked.txt",
@@ -5853,25 +5949,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.VideoModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        231
+        237
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 232
+      "DebugActionIndex": 238
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.WindModule-FeaturesChecked.txt_jjbj.info",
       "DisplayName": "Writing UnityEngine.WindModule-FeaturesChecked.txt_jjbj.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 141185,
+      "PayloadOffset": 141758,
       "PayloadLength": 1933,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.WindModule-FeaturesChecked.txt_jjbj.info"
       ],
-      "DebugActionIndex": 233
+      "DebugActionIndex": 239
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.WindModule-FeaturesChecked.txt",
@@ -5919,25 +6015,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.WindModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        233
+        239
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 234
+      "DebugActionIndex": 240
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.XRModule-FeaturesChecked.txt_xks3.info",
       "DisplayName": "Writing UnityEngine.XRModule-FeaturesChecked.txt_xks3.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 143236,
+      "PayloadOffset": 143809,
       "PayloadLength": 1929,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.XRModule-FeaturesChecked.txt_xks3.info"
       ],
-      "DebugActionIndex": 235
+      "DebugActionIndex": 241
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.XRModule-FeaturesChecked.txt",
@@ -5985,25 +6081,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.XRModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        235
+        241
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 236
+      "DebugActionIndex": 242
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine-FeaturesChecked.txt_x1ug.info",
       "DisplayName": "Writing UnityEngine-FeaturesChecked.txt_x1ug.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 145274,
+      "PayloadOffset": 145847,
       "PayloadLength": 1911,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine-FeaturesChecked.txt_x1ug.info"
       ],
-      "DebugActionIndex": 237
+      "DebugActionIndex": 243
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt",
@@ -6051,25 +6147,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        237
+        243
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 238
+      "DebugActionIndex": 244
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Assembly-CSharp-FeaturesChecked.txt_ki5r.info",
       "DisplayName": "Writing Assembly-CSharp-FeaturesChecked.txt_ki5r.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 147298,
+      "PayloadOffset": 147871,
       "PayloadLength": 1868,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Assembly-CSharp-FeaturesChecked.txt_ki5r.info"
       ],
-      "DebugActionIndex": 239
+      "DebugActionIndex": 245
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt",
@@ -6117,25 +6213,25 @@
         "Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        239
+        245
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 240
+      "DebugActionIndex": 246
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Core-FeaturesChecked.txt_v98y.info",
       "DisplayName": "Writing Unity.VisualScripting.Core-FeaturesChecked.txt_v98y.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 149290,
+      "PayloadOffset": 149863,
       "PayloadLength": 1890,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Core-FeaturesChecked.txt_v98y.info"
       ],
-      "DebugActionIndex": 241
+      "DebugActionIndex": 247
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Core-FeaturesChecked.txt",
@@ -6183,25 +6279,25 @@
         "Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Core-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        241
+        247
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 242
+      "DebugActionIndex": 248
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_v0bu.info",
       "DisplayName": "Writing UnityEngine.UI-FeaturesChecked.txt_v0bu.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 151292,
+      "PayloadOffset": 151865,
       "PayloadLength": 1866,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_v0bu.info"
       ],
-      "DebugActionIndex": 243
+      "DebugActionIndex": 249
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt",
@@ -6249,25 +6345,25 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        243
+        249
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 244
+      "DebugActionIndex": 250
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Flow-FeaturesChecked.txt_6qpt.info",
       "DisplayName": "Writing Unity.VisualScripting.Flow-FeaturesChecked.txt_6qpt.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 153282,
+      "PayloadOffset": 153855,
       "PayloadLength": 1890,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Flow-FeaturesChecked.txt_6qpt.info"
       ],
-      "DebugActionIndex": 245
+      "DebugActionIndex": 251
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Flow-FeaturesChecked.txt",
@@ -6315,25 +6411,25 @@
         "Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Flow-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        245
+        251
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 246
+      "DebugActionIndex": 252
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/PhotonRealtime-FeaturesChecked.txt_3t0c.info",
       "DisplayName": "Writing PhotonRealtime-FeaturesChecked.txt_3t0c.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 155284,
+      "PayloadOffset": 155857,
       "PayloadLength": 1866,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/PhotonRealtime-FeaturesChecked.txt_3t0c.info"
       ],
-      "DebugActionIndex": 247
+      "DebugActionIndex": 253
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/PhotonRealtime-FeaturesChecked.txt",
@@ -6381,25 +6477,25 @@
         "Library/Bee/artifacts/Android/Features/PhotonRealtime-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        247
+        253
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 248
+      "DebugActionIndex": 254
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/PhotonChat-FeaturesChecked.txt_sb4r.info",
       "DisplayName": "Writing PhotonChat-FeaturesChecked.txt_sb4r.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 157258,
+      "PayloadOffset": 157831,
       "PayloadLength": 1858,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/PhotonChat-FeaturesChecked.txt_sb4r.info"
       ],
-      "DebugActionIndex": 249
+      "DebugActionIndex": 255
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/PhotonChat-FeaturesChecked.txt",
@@ -6447,25 +6543,25 @@
         "Library/Bee/artifacts/Android/Features/PhotonChat-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        249
+        255
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 250
+      "DebugActionIndex": 256
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Timeline-FeaturesChecked.txt_in83.info",
       "DisplayName": "Writing Unity.Timeline-FeaturesChecked.txt_in83.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 159228,
+      "PayloadOffset": 159801,
       "PayloadLength": 1866,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.Timeline-FeaturesChecked.txt_in83.info"
       ],
-      "DebugActionIndex": 251
+      "DebugActionIndex": 257
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Timeline-FeaturesChecked.txt",
@@ -6513,25 +6609,25 @@
         "Library/Bee/artifacts/Android/Features/Unity.Timeline-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        251
+        257
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 252
+      "DebugActionIndex": 258
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.InputSystem-FeaturesChecked.txt_ivdb.info",
       "DisplayName": "Writing Unity.InputSystem-FeaturesChecked.txt_ivdb.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 161209,
+      "PayloadOffset": 161782,
       "PayloadLength": 1872,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.InputSystem-FeaturesChecked.txt_ivdb.info"
       ],
-      "DebugActionIndex": 253
+      "DebugActionIndex": 259
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.InputSystem-FeaturesChecked.txt",
@@ -6579,25 +6675,25 @@
         "Library/Bee/artifacts/Android/Features/Unity.InputSystem-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        253
+        259
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 254
+      "DebugActionIndex": 260
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.InputSystem.ForUI-FeaturesChecked.txt_1qsl.info",
       "DisplayName": "Writing Unity.InputSystem.ForUI-FeaturesChecked.txt_1qsl.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 163202,
+      "PayloadOffset": 163775,
       "PayloadLength": 1884,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.InputSystem.ForUI-FeaturesChecked.txt_1qsl.info"
       ],
-      "DebugActionIndex": 255
+      "DebugActionIndex": 261
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.InputSystem.ForUI-FeaturesChecked.txt",
@@ -6645,25 +6741,25 @@
         "Library/Bee/artifacts/Android/Features/Unity.InputSystem.ForUI-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        255
+        261
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 256
+      "DebugActionIndex": 262
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/PhotonUnityNetworking-FeaturesChecked.txt_7cnw.info",
       "DisplayName": "Writing PhotonUnityNetworking-FeaturesChecked.txt_7cnw.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 165205,
+      "PayloadOffset": 165778,
       "PayloadLength": 1880,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/PhotonUnityNetworking-FeaturesChecked.txt_7cnw.info"
       ],
-      "DebugActionIndex": 257
+      "DebugActionIndex": 263
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/PhotonUnityNetworking-FeaturesChecked.txt",
@@ -6711,25 +6807,25 @@
         "Library/Bee/artifacts/Android/Features/PhotonUnityNetworking-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        257
+        263
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 258
+      "DebugActionIndex": 264
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/PhotonUnityNetworking.Demos-FeaturesChecked.txt_1ery.info",
       "DisplayName": "Writing PhotonUnityNetworking.Demos-FeaturesChecked.txt_1ery.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 167210,
+      "PayloadOffset": 167783,
       "PayloadLength": 1892,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/PhotonUnityNetworking.Demos-FeaturesChecked.txt_1ery.info"
       ],
-      "DebugActionIndex": 259
+      "DebugActionIndex": 265
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/PhotonUnityNetworking.Demos-FeaturesChecked.txt",
@@ -6777,25 +6873,25 @@
         "Library/Bee/artifacts/Android/Features/PhotonUnityNetworking.Demos-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        259
+        265
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 260
+      "DebugActionIndex": 266
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/PhotonUnityNetworking.Utilities-FeaturesChecked.txt_vmko.info",
       "DisplayName": "Writing PhotonUnityNetworking.Utilities-FeaturesChecked.txt_vmko.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 169231,
+      "PayloadOffset": 169804,
       "PayloadLength": 1900,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/PhotonUnityNetworking.Utilities-FeaturesChecked.txt_vmko.info"
       ],
-      "DebugActionIndex": 261
+      "DebugActionIndex": 267
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/PhotonUnityNetworking.Utilities-FeaturesChecked.txt",
@@ -6843,25 +6939,25 @@
         "Library/Bee/artifacts/Android/Features/PhotonUnityNetworking.Utilities-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        261
+        267
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 262
+      "DebugActionIndex": 268
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.TextMeshPro-FeaturesChecked.txt_c7od.info",
       "DisplayName": "Writing Unity.TextMeshPro-FeaturesChecked.txt_c7od.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 171246,
+      "PayloadOffset": 171819,
       "PayloadLength": 1872,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.TextMeshPro-FeaturesChecked.txt_c7od.info"
       ],
-      "DebugActionIndex": 263
+      "DebugActionIndex": 269
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.TextMeshPro-FeaturesChecked.txt",
@@ -6909,25 +7005,25 @@
         "Library/Bee/artifacts/Android/Features/Unity.TextMeshPro-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        263
+        269
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 264
+      "DebugActionIndex": 270
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.State-FeaturesChecked.txt_znao.info",
       "DisplayName": "Writing Unity.VisualScripting.State-FeaturesChecked.txt_znao.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 173243,
+      "PayloadOffset": 173816,
       "PayloadLength": 1892,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.VisualScripting.State-FeaturesChecked.txt_znao.info"
       ],
-      "DebugActionIndex": 265
+      "DebugActionIndex": 271
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.VisualScripting.State-FeaturesChecked.txt",
@@ -6975,25 +7071,25 @@
         "Library/Bee/artifacts/Android/Features/Unity.VisualScripting.State-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        265
+        271
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 266
+      "DebugActionIndex": 272
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Cinemachine-FeaturesChecked.txt_0diw.info",
       "DisplayName": "Writing Cinemachine-FeaturesChecked.txt_0diw.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 175244,
+      "PayloadOffset": 175817,
       "PayloadLength": 1860,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Cinemachine-FeaturesChecked.txt_0diw.info"
       ],
-      "DebugActionIndex": 267
+      "DebugActionIndex": 273
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Cinemachine-FeaturesChecked.txt",
@@ -7041,25 +7137,157 @@
         "Library/Bee/artifacts/Android/Features/Cinemachine-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        267
+        273
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 268
+      "DebugActionIndex": 274
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/DnsClient-FeaturesChecked.txt_6qog.info",
+      "DisplayName": "Writing DnsClient-FeaturesChecked.txt_6qog.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 177784,
+      "PayloadLength": 1845,
+      "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/DnsClient-FeaturesChecked.txt_6qog.info"
+      ],
+      "DebugActionIndex": 275
+    },
+    {
+      "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/DnsClient-FeaturesChecked.txt",
+      "DisplayName": "ExtractUsedFeatures DnsClient-FeaturesChecked",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\AndroidPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\DnsClient-FeaturesChecked.txt_6qog.info\"",
+      "Inputs": [
+        "C:/Users/ulang/My project/Assets/Database/Plugins/DnsClient.dll",
+        "Library/Bee/artifacts/csharpactions/DnsClient-FeaturesChecked.txt_6qog.info",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/Android/Features/DnsClient-FeaturesChecked.txt"
+      ],
+      "ToBuildDependencies": [
+        275
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 276
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/MongoDB.Driver-FeaturesChecked.txt_o4oi.info",
+      "DisplayName": "Writing MongoDB.Driver-FeaturesChecked.txt_o4oi.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 179741,
+      "PayloadLength": 1855,
+      "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/MongoDB.Driver-FeaturesChecked.txt_o4oi.info"
+      ],
+      "DebugActionIndex": 277
+    },
+    {
+      "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/MongoDB.Driver-FeaturesChecked.txt",
+      "DisplayName": "ExtractUsedFeatures MongoDB.Driver-FeaturesChecked",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\AndroidPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\MongoDB.Driver-FeaturesChecked.txt_o4oi.info\"",
+      "Inputs": [
+        "C:/Users/ulang/My project/Assets/Database/Plugins/MongoDB.Driver.dll",
+        "Library/Bee/artifacts/csharpactions/MongoDB.Driver-FeaturesChecked.txt_o4oi.info",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/Android/Features/MongoDB.Driver-FeaturesChecked.txt"
+      ],
+      "ToBuildDependencies": [
+        277
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 278
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/websocket-sharp-FeaturesChecked.txt_mf2y.info",
       "DisplayName": "Writing websocket-sharp-FeaturesChecked.txt_mf2y.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 177217,
+      "PayloadOffset": 181709,
       "PayloadLength": 1868,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/websocket-sharp-FeaturesChecked.txt_mf2y.info"
       ],
-      "DebugActionIndex": 269
+      "DebugActionIndex": 279
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/websocket-sharp-FeaturesChecked.txt",
@@ -7107,25 +7335,91 @@
         "Library/Bee/artifacts/Android/Features/websocket-sharp-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        269
+        279
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 270
+      "DebugActionIndex": 280
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/MongoDB.Driver.Core-FeaturesChecked.txt_rjvn.info",
+      "DisplayName": "Writing MongoDB.Driver.Core-FeaturesChecked.txt_rjvn.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 183694,
+      "PayloadLength": 1865,
+      "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/MongoDB.Driver.Core-FeaturesChecked.txt_rjvn.info"
+      ],
+      "DebugActionIndex": 281
+    },
+    {
+      "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/MongoDB.Driver.Core-FeaturesChecked.txt",
+      "DisplayName": "ExtractUsedFeatures MongoDB.Driver.Core-FeaturesChecked",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\AndroidPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\MongoDB.Driver.Core-FeaturesChecked.txt_rjvn.info\"",
+      "Inputs": [
+        "C:/Users/ulang/My project/Assets/Database/Plugins/MongoDB.Driver.Core.dll",
+        "Library/Bee/artifacts/csharpactions/MongoDB.Driver.Core-FeaturesChecked.txt_rjvn.info",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/Android/Features/MongoDB.Driver.Core-FeaturesChecked.txt"
+      ],
+      "ToBuildDependencies": [
+        281
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 282
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt_on7y.info",
       "DisplayName": "Writing Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt_on7y.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 179219,
+      "PayloadOffset": 185693,
       "PayloadLength": 1976,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt_on7y.info"
       ],
-      "DebugActionIndex": 271
+      "DebugActionIndex": 283
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt",
@@ -7173,25 +7467,25 @@
         "Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        271
+        283
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 272
+      "DebugActionIndex": 284
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Photon3Unity3D-FeaturesChecked.txt_buka.info",
       "DisplayName": "Writing Photon3Unity3D-FeaturesChecked.txt_buka.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 181307,
+      "PayloadOffset": 187781,
       "PayloadLength": 1871,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Photon3Unity3D-FeaturesChecked.txt_buka.info"
       ],
-      "DebugActionIndex": 273
+      "DebugActionIndex": 285
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Photon3Unity3D-FeaturesChecked.txt",
@@ -7239,25 +7533,223 @@
         "Library/Bee/artifacts/Android/Features/Photon3Unity3D-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        273
+        285
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 274
+      "DebugActionIndex": 286
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/MongoDB.Bson-FeaturesChecked.txt_sxxy.info",
+      "DisplayName": "Writing MongoDB.Bson-FeaturesChecked.txt_sxxy.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 189762,
+      "PayloadLength": 1851,
+      "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/MongoDB.Bson-FeaturesChecked.txt_sxxy.info"
+      ],
+      "DebugActionIndex": 287
+    },
+    {
+      "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/MongoDB.Bson-FeaturesChecked.txt",
+      "DisplayName": "ExtractUsedFeatures MongoDB.Bson-FeaturesChecked",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\AndroidPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\MongoDB.Bson-FeaturesChecked.txt_sxxy.info\"",
+      "Inputs": [
+        "C:/Users/ulang/My project/Assets/Database/Plugins/MongoDB.Bson.dll",
+        "Library/Bee/artifacts/csharpactions/MongoDB.Bson-FeaturesChecked.txt_sxxy.info",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/Android/Features/MongoDB.Bson-FeaturesChecked.txt"
+      ],
+      "ToBuildDependencies": [
+        287
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 288
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Buffers-FeaturesChecked.txt_0peh.info",
+      "DisplayName": "Writing System.Buffers-FeaturesChecked.txt_0peh.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 191725,
+      "PayloadLength": 1912,
+      "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/System.Buffers-FeaturesChecked.txt_0peh.info"
+      ],
+      "DebugActionIndex": 289
+    },
+    {
+      "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Buffers-FeaturesChecked.txt",
+      "DisplayName": "ExtractUsedFeatures System.Buffers-FeaturesChecked",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\AndroidPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\System.Buffers-FeaturesChecked.txt_0peh.info\"",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Buffers.dll",
+        "Library/Bee/artifacts/csharpactions/System.Buffers-FeaturesChecked.txt_0peh.info",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/Android/Features/System.Buffers-FeaturesChecked.txt"
+      ],
+      "ToBuildDependencies": [
+        289
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 290
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Runtime.InteropServices.RuntimeInformation-FeaturesChecked.txt_aktc.info",
+      "DisplayName": "Writing System.Runtime.InteropServices.RuntimeInformation-FeaturesChecked.txt_aktc.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 193784,
+      "PayloadLength": 1982,
+      "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/System.Runtime.InteropServices.RuntimeInformation-FeaturesChecked.txt_aktc.info"
+      ],
+      "DebugActionIndex": 291
+    },
+    {
+      "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Runtime.InteropServices.RuntimeInformation-FeaturesChecked.txt",
+      "DisplayName": "ExtractUsedFeatures System.Runtime.InteropServices.RuntimeInformation-FeaturesChecked",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.12f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\AndroidPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\System.Runtime.InteropServices.RuntimeInformation-FeaturesChecked.txt_aktc.info\"",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "Library/Bee/artifacts/csharpactions/System.Runtime.InteropServices.RuntimeInformation-FeaturesChecked.txt_aktc.info",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/Android/Features/System.Runtime.InteropServices.RuntimeInformation-FeaturesChecked.txt"
+      ],
+      "ToBuildDependencies": [
+        291
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 292
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/netstandard-FeaturesChecked.txt_gaje.info",
       "DisplayName": "Writing netstandard-FeaturesChecked.txt_gaje.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 183287,
+      "PayloadOffset": 195875,
       "PayloadLength": 1906,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/netstandard-FeaturesChecked.txt_gaje.info"
       ],
-      "DebugActionIndex": 275
+      "DebugActionIndex": 293
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/netstandard-FeaturesChecked.txt",
@@ -7305,25 +7797,25 @@
         "Library/Bee/artifacts/Android/Features/netstandard-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        275
+        293
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 276
+      "DebugActionIndex": 294
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Mono.Security-FeaturesChecked.txt_pcel.info",
       "DisplayName": "Writing Mono.Security-FeaturesChecked.txt_pcel.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 185304,
+      "PayloadOffset": 197892,
       "PayloadLength": 1902,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Mono.Security-FeaturesChecked.txt_pcel.info"
       ],
-      "DebugActionIndex": 277
+      "DebugActionIndex": 295
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt",
@@ -7371,25 +7863,25 @@
         "Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        277
+        295
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 278
+      "DebugActionIndex": 296
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.ComponentModel.Composition-FeaturesChecked.txt_1seo.info",
       "DisplayName": "Writing System.ComponentModel.Composition-FeaturesChecked.txt_1seo.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 187337,
+      "PayloadOffset": 199925,
       "PayloadLength": 1942,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.ComponentModel.Composition-FeaturesChecked.txt_1seo.info"
       ],
-      "DebugActionIndex": 279
+      "DebugActionIndex": 297
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.ComponentModel.Composition-FeaturesChecked.txt",
@@ -7437,25 +7929,25 @@
         "Library/Bee/artifacts/Android/Features/System.ComponentModel.Composition-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        279
+        297
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 280
+      "DebugActionIndex": 298
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Configuration-FeaturesChecked.txt_vfp9.info",
       "DisplayName": "Writing System.Configuration-FeaturesChecked.txt_vfp9.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 189397,
+      "PayloadOffset": 201985,
       "PayloadLength": 1916,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Configuration-FeaturesChecked.txt_vfp9.info"
       ],
-      "DebugActionIndex": 281
+      "DebugActionIndex": 299
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt",
@@ -7503,25 +7995,25 @@
         "Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        281
+        299
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 282
+      "DebugActionIndex": 300
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Core-FeaturesChecked.txt_k2yd.info",
       "DisplayName": "Writing System.Core-FeaturesChecked.txt_k2yd.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 191422,
+      "PayloadOffset": 204010,
       "PayloadLength": 1898,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Core-FeaturesChecked.txt_k2yd.info"
       ],
-      "DebugActionIndex": 283
+      "DebugActionIndex": 301
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt",
@@ -7569,25 +8061,25 @@
         "Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        283
+        301
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 284
+      "DebugActionIndex": 302
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Data.DataSetExtensions-FeaturesChecked.txt_p7rm.info",
       "DisplayName": "Writing System.Data.DataSetExtensions-FeaturesChecked.txt_p7rm.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 193447,
+      "PayloadOffset": 206035,
       "PayloadLength": 1934,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Data.DataSetExtensions-FeaturesChecked.txt_p7rm.info"
       ],
-      "DebugActionIndex": 285
+      "DebugActionIndex": 303
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Data.DataSetExtensions-FeaturesChecked.txt",
@@ -7635,25 +8127,25 @@
         "Library/Bee/artifacts/Android/Features/System.Data.DataSetExtensions-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        285
+        303
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 286
+      "DebugActionIndex": 304
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Data-FeaturesChecked.txt_r76e.info",
       "DisplayName": "Writing System.Data-FeaturesChecked.txt_r76e.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 195490,
+      "PayloadOffset": 208078,
       "PayloadLength": 1898,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Data-FeaturesChecked.txt_r76e.info"
       ],
-      "DebugActionIndex": 287
+      "DebugActionIndex": 305
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Data-FeaturesChecked.txt",
@@ -7701,25 +8193,25 @@
         "Library/Bee/artifacts/Android/Features/System.Data-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        287
+        305
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 288
+      "DebugActionIndex": 306
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Drawing-FeaturesChecked.txt_f5g4.info",
       "DisplayName": "Writing System.Drawing-FeaturesChecked.txt_f5g4.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 197500,
+      "PayloadOffset": 210088,
       "PayloadLength": 1904,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Drawing-FeaturesChecked.txt_f5g4.info"
       ],
-      "DebugActionIndex": 289
+      "DebugActionIndex": 307
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Drawing-FeaturesChecked.txt",
@@ -7767,25 +8259,25 @@
         "Library/Bee/artifacts/Android/Features/System.Drawing-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        289
+        307
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 290
+      "DebugActionIndex": 308
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.EnterpriseServices-FeaturesChecked.txt_kuui.info",
       "DisplayName": "Writing System.EnterpriseServices-FeaturesChecked.txt_kuui.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 199527,
+      "PayloadOffset": 212115,
       "PayloadLength": 1926,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.EnterpriseServices-FeaturesChecked.txt_kuui.info"
       ],
-      "DebugActionIndex": 291
+      "DebugActionIndex": 309
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.EnterpriseServices-FeaturesChecked.txt",
@@ -7833,25 +8325,25 @@
         "Library/Bee/artifacts/Android/Features/System.EnterpriseServices-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        291
+        309
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 292
+      "DebugActionIndex": 310
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.IO.Compression.FileSystem-FeaturesChecked.txt_8xhs.info",
       "DisplayName": "Writing System.IO.Compression.FileSystem-FeaturesChecked.txt_8xhs.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 201583,
+      "PayloadOffset": 214171,
       "PayloadLength": 1940,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.IO.Compression.FileSystem-FeaturesChecked.txt_8xhs.info"
       ],
-      "DebugActionIndex": 293
+      "DebugActionIndex": 311
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.IO.Compression.FileSystem-FeaturesChecked.txt",
@@ -7899,25 +8391,25 @@
         "Library/Bee/artifacts/Android/Features/System.IO.Compression.FileSystem-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        293
+        311
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 294
+      "DebugActionIndex": 312
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.IO.Compression-FeaturesChecked.txt_ziug.info",
       "DisplayName": "Writing System.IO.Compression-FeaturesChecked.txt_ziug.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 203642,
+      "PayloadOffset": 216230,
       "PayloadLength": 1918,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.IO.Compression-FeaturesChecked.txt_ziug.info"
       ],
-      "DebugActionIndex": 295
+      "DebugActionIndex": 313
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.IO.Compression-FeaturesChecked.txt",
@@ -7965,25 +8457,25 @@
         "Library/Bee/artifacts/Android/Features/System.IO.Compression-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        295
+        313
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 296
+      "DebugActionIndex": 314
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Net.Http-FeaturesChecked.txt_6zy9.info",
       "DisplayName": "Writing System.Net.Http-FeaturesChecked.txt_6zy9.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 205673,
+      "PayloadOffset": 218261,
       "PayloadLength": 1906,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Net.Http-FeaturesChecked.txt_6zy9.info"
       ],
-      "DebugActionIndex": 297
+      "DebugActionIndex": 315
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Net.Http-FeaturesChecked.txt",
@@ -8031,25 +8523,25 @@
         "Library/Bee/artifacts/Android/Features/System.Net.Http-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        297
+        315
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 298
+      "DebugActionIndex": 316
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Numerics-FeaturesChecked.txt_zs7y.info",
       "DisplayName": "Writing System.Numerics-FeaturesChecked.txt_zs7y.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 207692,
+      "PayloadOffset": 220280,
       "PayloadLength": 1906,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Numerics-FeaturesChecked.txt_zs7y.info"
       ],
-      "DebugActionIndex": 299
+      "DebugActionIndex": 317
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Numerics-FeaturesChecked.txt",
@@ -8097,25 +8589,25 @@
         "Library/Bee/artifacts/Android/Features/System.Numerics-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        299
+        317
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 300
+      "DebugActionIndex": 318
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Runtime.Serialization-FeaturesChecked.txt_b9hm.info",
       "DisplayName": "Writing System.Runtime.Serialization-FeaturesChecked.txt_b9hm.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 209724,
+      "PayloadOffset": 222312,
       "PayloadLength": 1932,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Runtime.Serialization-FeaturesChecked.txt_b9hm.info"
       ],
-      "DebugActionIndex": 301
+      "DebugActionIndex": 319
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Runtime.Serialization-FeaturesChecked.txt",
@@ -8163,25 +8655,25 @@
         "Library/Bee/artifacts/Android/Features/System.Runtime.Serialization-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        301
+        319
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 302
+      "DebugActionIndex": 320
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Security-FeaturesChecked.txt_pdzz.info",
       "DisplayName": "Writing System.Security-FeaturesChecked.txt_pdzz.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 211769,
+      "PayloadOffset": 224357,
       "PayloadLength": 1906,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Security-FeaturesChecked.txt_pdzz.info"
       ],
-      "DebugActionIndex": 303
+      "DebugActionIndex": 321
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Security-FeaturesChecked.txt",
@@ -8229,25 +8721,25 @@
         "Library/Bee/artifacts/Android/Features/System.Security-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        303
+        321
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 304
+      "DebugActionIndex": 322
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.ServiceModel.Internals-FeaturesChecked.txt_het8.info",
       "DisplayName": "Writing System.ServiceModel.Internals-FeaturesChecked.txt_het8.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 213802,
+      "PayloadOffset": 226390,
       "PayloadLength": 1934,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.ServiceModel.Internals-FeaturesChecked.txt_het8.info"
       ],
-      "DebugActionIndex": 305
+      "DebugActionIndex": 323
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.ServiceModel.Internals-FeaturesChecked.txt",
@@ -8295,25 +8787,25 @@
         "Library/Bee/artifacts/Android/Features/System.ServiceModel.Internals-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        305
+        323
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 306
+      "DebugActionIndex": 324
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Transactions-FeaturesChecked.txt_e9ns.info",
       "DisplayName": "Writing System.Transactions-FeaturesChecked.txt_e9ns.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 215853,
+      "PayloadOffset": 228441,
       "PayloadLength": 1914,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Transactions-FeaturesChecked.txt_e9ns.info"
       ],
-      "DebugActionIndex": 307
+      "DebugActionIndex": 325
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Transactions-FeaturesChecked.txt",
@@ -8361,25 +8853,25 @@
         "Library/Bee/artifacts/Android/Features/System.Transactions-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        307
+        325
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 308
+      "DebugActionIndex": 326
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Xml.Linq-FeaturesChecked.txt_ghye.info",
       "DisplayName": "Writing System.Xml.Linq-FeaturesChecked.txt_ghye.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 217880,
+      "PayloadOffset": 230468,
       "PayloadLength": 1906,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Xml.Linq-FeaturesChecked.txt_ghye.info"
       ],
-      "DebugActionIndex": 309
+      "DebugActionIndex": 327
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Xml.Linq-FeaturesChecked.txt",
@@ -8427,25 +8919,25 @@
         "Library/Bee/artifacts/Android/Features/System.Xml.Linq-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        309
+        327
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 310
+      "DebugActionIndex": 328
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Xml-FeaturesChecked.txt_wnnz.info",
       "DisplayName": "Writing System.Xml-FeaturesChecked.txt_wnnz.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 219894,
+      "PayloadOffset": 232482,
       "PayloadLength": 1896,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Xml-FeaturesChecked.txt_wnnz.info"
       ],
-      "DebugActionIndex": 311
+      "DebugActionIndex": 329
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt",
@@ -8493,25 +8985,25 @@
         "Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        311
+        329
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 312
+      "DebugActionIndex": 330
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System-FeaturesChecked.txt_v90b.info",
       "DisplayName": "Writing System-FeaturesChecked.txt_v90b.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 221894,
+      "PayloadOffset": 234482,
       "PayloadLength": 1888,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System-FeaturesChecked.txt_v90b.info"
       ],
-      "DebugActionIndex": 313
+      "DebugActionIndex": 331
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt",
@@ -8559,25 +9051,25 @@
         "Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        313
+        331
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 314
+      "DebugActionIndex": 332
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/mscorlib-FeaturesChecked.txt_pwj8.info",
       "DisplayName": "Writing mscorlib-FeaturesChecked.txt_pwj8.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 223888,
+      "PayloadOffset": 236476,
       "PayloadLength": 1892,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/mscorlib-FeaturesChecked.txt_pwj8.info"
       ],
-      "DebugActionIndex": 315
+      "DebugActionIndex": 333
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt",
@@ -8625,12 +9117,12 @@
         "Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        315
+        333
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 316
+      "DebugActionIndex": 334
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources",
@@ -8642,20 +9134,20 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources"
       ],
-      "DebugActionIndex": 317
+      "DebugActionIndex": 335
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.gradle_6i2e.info",
       "DisplayName": "Writing build.gradle_6i2e.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 225870,
+      "PayloadOffset": 238458,
       "PayloadLength": 4694,
       "PayloadDebugContentSnippet": "{\"AndroidPlayerBuildProgram.Ac",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/build.gradle_6i2e.info"
       ],
-      "DebugActionIndex": 318
+      "DebugActionIndex": 336
     },
     {
       "Annotation": "ActionGenerateProjectFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/build.gradle (+7 others)",
@@ -8690,12 +9182,12 @@
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/gradle/wrapper/gradle-wrapper.properties"
       ],
       "ToBuildDependencies": [
-        318
+        336
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 319
+      "DebugActionIndex": 337
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java",
@@ -8707,7 +9199,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java"
       ],
-      "DebugActionIndex": 320
+      "DebugActionIndex": 338
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar",
@@ -8719,7 +9211,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar"
       ],
-      "DebugActionIndex": 321
+      "DebugActionIndex": 339
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values/ids.xml",
@@ -8731,7 +9223,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values/ids.xml"
       ],
-      "DebugActionIndex": 322
+      "DebugActionIndex": 340
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values-v21/styles.xml",
@@ -8743,7 +9235,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 323
+      "DebugActionIndex": 341
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values-v28/styles.xml",
@@ -8755,7 +9247,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values-v28/styles.xml"
       ],
-      "DebugActionIndex": 324
+      "DebugActionIndex": 342
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values-v31/styles.xml",
@@ -8767,7 +9259,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values-v31/styles.xml"
       ],
-      "DebugActionIndex": 325
+      "DebugActionIndex": 343
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values/styles.xml",
@@ -8779,33 +9271,33 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 326
+      "DebugActionIndex": 344
     },
     {
       "Annotation": "WriteText C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values/colors.xml",
       "DisplayName": "Writing colors.xml",
       "ActionType": "WriteFile",
-      "PayloadOffset": 230703,
+      "PayloadOffset": 243291,
       "PayloadLength": 132,
       "PayloadDebugContentSnippet": "<?xml version=\"1.0\" encoding=\"",
       "Inputs": [],
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values/colors.xml"
       ],
-      "DebugActionIndex": 327
+      "DebugActionIndex": 345
     },
     {
       "Annotation": "WriteText C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/strings.xml",
       "DisplayName": "Writing strings.xml",
       "ActionType": "WriteFile",
-      "PayloadOffset": 230971,
+      "PayloadOffset": 243559,
       "PayloadLength": 179,
       "PayloadDebugContentSnippet": "<?xml version=\"1.0\" encoding=\"",
       "Inputs": [],
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/strings.xml"
       ],
-      "DebugActionIndex": 328
+      "DebugActionIndex": 346
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml",
@@ -8817,7 +9309,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml"
       ],
-      "DebugActionIndex": 329
+      "DebugActionIndex": 347
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml",
@@ -8829,7 +9321,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml"
       ],
-      "DebugActionIndex": 330
+      "DebugActionIndex": 348
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml",
@@ -8841,7 +9333,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
       ],
-      "DebugActionIndex": 331
+      "DebugActionIndex": 349
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml",
@@ -8853,7 +9345,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
       ],
-      "DebugActionIndex": 332
+      "DebugActionIndex": 350
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
@@ -8865,7 +9357,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
       ],
-      "DebugActionIndex": 333
+      "DebugActionIndex": 351
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png",
@@ -8877,7 +9369,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 334
+      "DebugActionIndex": 352
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
@@ -8889,7 +9381,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
       ],
-      "DebugActionIndex": 335
+      "DebugActionIndex": 353
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so",
@@ -8901,7 +9393,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 336
+      "DebugActionIndex": 354
     },
     {
       "Annotation": "SourceBuildPlayerFiles",
@@ -8909,11 +9401,11 @@
       "Inputs": [],
       "Outputs": [],
       "ToBuildDependencies": [
-        336,
-        338
+        354,
+        356
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 337
+      "DebugActionIndex": 355
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so",
@@ -8925,7 +9417,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so"
       ],
-      "DebugActionIndex": 338
+      "DebugActionIndex": 356
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so",
@@ -8937,7 +9429,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so"
       ],
-      "DebugActionIndex": 339
+      "DebugActionIndex": 357
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libMonoPosixHelper.so",
@@ -8949,7 +9441,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libMonoPosixHelper.so"
       ],
-      "DebugActionIndex": 340
+      "DebugActionIndex": 358
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmono-native.so",
@@ -8961,20 +9453,20 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmono-native.so"
       ],
-      "DebugActionIndex": 341
+      "DebugActionIndex": 359
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
       "DisplayName": "Writing LauncherManifestDiag.txt_zvqu.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 231252,
-      "PayloadLength": 21012,
+      "PayloadOffset": 243840,
+      "PayloadLength": 21990,
       "PayloadDebugContentSnippet": "{\"AndroidPlayerBuildProgram.Ac",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
-      "DebugActionIndex": 342
+      "DebugActionIndex": 360
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -9060,9 +9552,15 @@
         "Library/Bee/artifacts/Android/Features/Unity.TextMeshPro-FeaturesChecked.txt",
         "Library/Bee/artifacts/Android/Features/Unity.VisualScripting.State-FeaturesChecked.txt",
         "Library/Bee/artifacts/Android/Features/Cinemachine-FeaturesChecked.txt",
+        "Library/Bee/artifacts/Android/Features/DnsClient-FeaturesChecked.txt",
+        "Library/Bee/artifacts/Android/Features/MongoDB.Driver-FeaturesChecked.txt",
         "Library/Bee/artifacts/Android/Features/websocket-sharp-FeaturesChecked.txt",
+        "Library/Bee/artifacts/Android/Features/MongoDB.Driver.Core-FeaturesChecked.txt",
         "Library/Bee/artifacts/Android/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt",
         "Library/Bee/artifacts/Android/Features/Photon3Unity3D-FeaturesChecked.txt",
+        "Library/Bee/artifacts/Android/Features/MongoDB.Bson-FeaturesChecked.txt",
+        "Library/Bee/artifacts/Android/Features/System.Buffers-FeaturesChecked.txt",
+        "Library/Bee/artifacts/Android/Features/System.Runtime.InteropServices.RuntimeInformation-FeaturesChecked.txt",
         "Library/Bee/artifacts/Android/Features/netstandard-FeaturesChecked.txt",
         "Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt",
         "Library/Bee/artifacts/Android/Features/System.ComponentModel.Composition-FeaturesChecked.txt",
@@ -9103,9 +9601,6 @@
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml"
       ],
       "ToBuildDependencies": [
-        112,
-        114,
-        116,
         118,
         120,
         122,
@@ -9206,12 +9701,21 @@
         312,
         314,
         316,
-        342
+        318,
+        320,
+        322,
+        324,
+        326,
+        328,
+        330,
+        332,
+        334,
+        360
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 343
+      "DebugActionIndex": 361
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so",
@@ -9223,7 +9727,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 344
+      "DebugActionIndex": 362
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmonobdwgc-2.0.so",
@@ -9235,7 +9739,7 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmonobdwgc-2.0.so"
       ],
-      "DebugActionIndex": 345
+      "DebugActionIndex": 363
     },
     {
       "Annotation": "CopyFiles C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so",
@@ -9247,20 +9751,20 @@
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so"
       ],
-      "DebugActionIndex": 346
+      "DebugActionIndex": 364
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_3esj.info",
       "DisplayName": "Writing unity_app_guid_3esj.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 252356,
-      "PayloadLength": 14578,
+      "PayloadOffset": 265922,
+      "PayloadLength": 15151,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/unity_app_guid_3esj.info"
       ],
-      "DebugActionIndex": 347
+      "DebugActionIndex": 365
     },
     {
       "Annotation": "GuidGenerator C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -9351,9 +9855,15 @@
         "C:/Users/ulang/My project/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
         "C:/Users/ulang/My project/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
         "C:/Users/ulang/My project/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll",
+        "C:/Users/ulang/My project/Assets/Database/Plugins/DnsClient.dll",
+        "C:/Users/ulang/My project/Assets/Database/Plugins/MongoDB.Driver.dll",
         "C:/Users/ulang/My project/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
+        "C:/Users/ulang/My project/Assets/Database/Plugins/MongoDB.Driver.Core.dll",
         "C:/Users/ulang/My project/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "C:/Users/ulang/My project/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
+        "C:/Users/ulang/My project/Assets/Database/Plugins/MongoDB.Bson.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Buffers.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/System.Runtime.InteropServices.RuntimeInformation.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Facades/netstandard.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/Mono.Security.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.ComponentModel.Composition.dll",
@@ -9391,25 +9901,25 @@
       ],
       "ToBuildDependencies": [
         6,
-        347
+        365
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 348
+      "DebugActionIndex": 366
     },
     {
       "Annotation": "WriteText C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
       "DisplayName": "Writing com.android.games.engine.build_fingerprint",
       "ActionType": "WriteFile",
-      "PayloadOffset": 267113,
+      "PayloadOffset": 281252,
       "PayloadLength": 66,
       "PayloadDebugContentSnippet": "2022.3.12f1;Mono;Release;Strip",
       "Inputs": [],
       "Outputs": [
         "C:/Users/ulang/My project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint"
       ],
-      "DebugActionIndex": 349
+      "DebugActionIndex": 367
     },
     {
       "Annotation": "Player",
@@ -9525,8 +10035,11 @@
         108,
         109,
         110,
+        111,
         112,
+        113,
         114,
+        115,
         116,
         118,
         120,
@@ -9628,35 +10141,44 @@
         312,
         314,
         316,
-        317,
-        319,
+        318,
         320,
-        321,
         322,
-        323,
         324,
-        325,
         326,
-        327,
         328,
-        329,
         330,
-        331,
         332,
-        333,
         334,
         335,
-        336,
+        337,
         338,
         339,
         340,
         341,
+        342,
         343,
+        344,
+        345,
+        346,
+        347,
         348,
-        349
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        356,
+        357,
+        358,
+        359,
+        361,
+        366,
+        367
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 350
+      "DebugActionIndex": 368
     }
   ],
   "FileSignatures": [
@@ -9967,8 +10489,8 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "SourceBuildPlayerFiles": 337,
-          "Player": 350
+          "SourceBuildPlayerFiles": 355,
+          "Player": 368
         }
 ,  "DefaultNodes": [
     0

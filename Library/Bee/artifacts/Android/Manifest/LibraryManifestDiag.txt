@@ -7,8 +7,12 @@ android.permission.INTERNET was added because:
 		Unity.InputSystem-FeaturesChecked.txt
 	System.Net.Sockets was present in:
 		PhotonRealtime-FeaturesChecked.txt
+		DnsClient-FeaturesChecked.txt
+		MongoDB.Driver-FeaturesChecked.txt
 		websocket-sharp-FeaturesChecked.txt
+		MongoDB.Driver.Core-FeaturesChecked.txt
 		Photon3Unity3D-FeaturesChecked.txt
+		MongoDB.Bson-FeaturesChecked.txt
 	UnityEngine.Network was present in:
 		PhotonRealtime-FeaturesChecked.txt
 		Unity.InputSystem-FeaturesChecked.txt

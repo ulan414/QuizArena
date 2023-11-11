@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ulang\\My project\\PhotonChat.csproj",
-      "projectName": "PhotonChat",
-      "projectPath": "C:\\Users\\ulang\\My project\\PhotonChat.csproj",
+      "projectUniqueName": "C:\\Users\\ulang\\My project\\PhotonRealtime.csproj",
+      "projectName": "PhotonRealtime",
+      "projectPath": "C:\\Users\\ulang\\My project\\PhotonRealtime.csproj",
       "packagesPath": "C:\\Users\\ulang\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ulang\\My project\\obj\\",
       "projectStyle": "PackageReference",
