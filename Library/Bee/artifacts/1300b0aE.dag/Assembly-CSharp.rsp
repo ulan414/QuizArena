@@ -402,6 +402,7 @@
 "Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/QuestionsAndAnswers.cs"
+"Assets/QuestionsSaver.cs"
 "Assets/QuizManager.cs"
 "Assets/Scripts/ConnectToServer.cs"
 "Assets/Scripts/MenuManager.cs"
@@ -414,6 +415,7 @@
 "Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs"
 "Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs"
+"Assets/Timer.cs"
 -langversion:9.0
 
 /deterministic

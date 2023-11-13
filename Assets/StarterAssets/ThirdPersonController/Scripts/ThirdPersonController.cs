@@ -3,6 +3,7 @@
 using UnityEngine.InputSystem;
 #endif
 using Photon.Pun;
+using TMPro;
 /* Note: animations are called via the controller for both the character and capsule using animator null checks
  */
 
@@ -112,6 +113,8 @@ namespace StarterAssets
 
         private bool _hasAnimator;
         public GameObject cam;
+
+        public TextMeshProUGUI WinnerText;
         private bool IsCurrentDeviceMouse
         {
             get
@@ -127,13 +130,9 @@ namespace StarterAssets
 private bool cameraChanged = false;
 public GameObject cinemachine;
 public GameObject touchZone;
-
+public GameObject StarterButton;
         private void Awake()
         {
-
-
-
-
            // get a reference to our main camera
             if (_mainCamera == null)
             {
@@ -160,6 +159,12 @@ public GameObject touchZone;
             // audioListener.enabled = true;
             cinemachine.SetActive(true);
             touchZone.SetActive(true);
+            if(PlayerPrefs.GetInt("creater") == 1){
+                Transform interfaceCanvas = GameObject.Find("InterfaceCanvas").transform;
+                StarterButton = interfaceCanvas.Find("StartButton").gameObject;
+                StarterButton.SetActive(true);
+                Debug.Log("Activated");
+        }
         }else{
             // AudioListener audioListener = _mainCamera.GetComponent<AudioListener>();
             // audioListener.enabled = false;
@@ -437,6 +442,11 @@ public GameObject touchZone;
                 {
                  AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
                 }
+            }
+        }
+        public void WinnerInterface(){
+            if(photonView.IsMine){
+                WinnerText.gameObject.SetActive(true);
             }
         }
     }

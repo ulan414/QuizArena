@@ -12,12 +12,12 @@ public class DatabaseAccess : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        database = client.GetDatabase("Quiz_Arena");
-        collection = database.GetCollection<BsonDocument>("Quiz_Arena");
+        // database = client.GetDatabase("Quiz_Arena");
+        // collection = database.GetCollection<BsonDocument>("Quiz_Arena");
 
-        //test
-        var document = new BsonDocument{ { "username", 100} };
-        collection.InsertOne(document);
+        // //test
+        // var document = new BsonDocument{ { "username", 100} };
+        // collection.InsertOne(document);
     }
 
     // Update is called once per frame
